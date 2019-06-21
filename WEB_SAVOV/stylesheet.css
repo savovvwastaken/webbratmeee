@@ -1,0 +1,84 @@
+body{
+	background-image:url(hex.png);
+}
+
+a{
+	text-decoration:none;
+}
+
+#title{
+	color: black;
+	text-align: center;
+	font-family: "Lucida Sans Unicode";
+}
+
+.buttons{
+	background-color:rgba(0,0,0,0.2);
+	width: 100%;
+	height: 350px;
+	padding-top: 15px;
+}
+
+.button{
+	background-color: white;
+	position: relative;
+	width: 90%;
+	height: 20%;
+	margin: 5%;
+	border-radius: 15px;
+	border-style: solid;
+	border-color: gray;
+}
+
+.button h1{
+	text-align: center;
+	font-family: "Courier New";
+	color: darkblue;
+}
+
+.button:hover{
+	background-color: darkgray;
+	cursor: pointer;
+}
+
+.level{
+	text-align: center;
+	font-size: 35pt;
+	font-family: "Courier New";
+}
+
+.back{
+	color:darkred;
+	font-family: "Courier New";
+}
+
+.button2{
+	text-align: center;
+	width: 550px;
+	height: 80px;
+	background-color: darkcyan;
+	border-radius: 25px;
+	border-style:solid;
+	border-color:cyan;
+	margin: 0 auto;
+}
+
+.button2:hover{
+	border-color: darkcyan;
+	background-color:cyan;
+	cursor: pointer;
+	color: darkcyan;
+}
+
+.button2 h1{
+	font-family: "Courier New";
+	color: DarkSlateGray;
+	user-select: none;
+}
+
+#text{
+	text-align: center;
+	padding-top: 20px;
+	font-size: 25pt;
+	font-family: "Courier New";
+}
